@@ -1,6 +1,6 @@
 
 
-```markdown
+
 ## BMI510_Final_Project_RPack
 
 `BMI510_Final_Project_RPack` is a collection of R functions designed to assist in statistical analysis and data manipulation, particularly useful for researchers and data scientists. This package includes functions for calculating log likelihoods, generating survival curves, unscale standardized data, principal component analysis, standardizing variable names, calculating minimum sample sizes for statistical tests, and interacting with RedCap API for data reports.
@@ -13,7 +13,7 @@ Install the development version of `BMI510_Final_Project_RPack` from GitHub:
 setwd("your install path/bmi510")
 devtools::document()
 devtools::install(".")
-```
+
 
 ## Functions
 
