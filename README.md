@@ -7,13 +7,13 @@
 
 ## Installation
 
-Install the development version of `BMI510_Final_Project_RPack` from GitHub:
+Download the package from github : https://github.com/Momo23569/bmi510.git
 
 ```r
-setwd("your install path/bmi510")
+setwd("your local downloaded path/bmi510")
 devtools::document()
 devtools::install(".")
-
+```
 
 ## Functions
 
@@ -73,9 +73,7 @@ Download a report from RedCap using the RedCap API.
 downloadRedcapReport(redcapTokenName, redcapUrl, redcapReportId)
 ```
 
-## Usage
 
-Here are some examples of how to use the functions in the package:
 
 ## Usage
 
