@@ -30,7 +30,9 @@ pcApprox <- function(x, npc) {
   v <- svd_x$v
 
   # Keep only the first npc components
-  d[npc + 1:length(d)] <- 0
+  d <- d[1:npc]
+  u <- u[, 1:npc]
+  v <- v[, 1:npc]
 
   # Reconstruct the matrix with reduced components
   approx <- u %*% diag(d) %*% t(v)
